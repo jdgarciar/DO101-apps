@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Fiscalia General de la Nación - Versión 1 de la Aplicación...' + '\n';
+    response = 'Fiscalia General de la Nación - Versión 1 de la Aplicación.' + '\n';
 
     //send the response to the client
     res.send(response);
